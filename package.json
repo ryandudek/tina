@@ -5,7 +5,8 @@
   "author": "Ryan Dudek <ryandudek@gmail.com>",
   "description": "... not that I'm thinking about butts ...",
   "dependencies": {
-    "hubot": "^2.11.4",
+    "htmlparser": "latest",
+    "hubot": ">= 2.6.0 < 3.0.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.4",
     "hubot-google-translate": "^0.1.0",
@@ -15,12 +16,18 @@
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.2",
     "hubot-rules": "^0.1.0",
-    "hubot-scripts": "^2.5.16",
+    "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-shipit": "^0.1.2",
     "hubot-slack": "^3.3.0",
-    "hubot-youtube": "^0.1.2"
+    "hubot-youtube": "^0.1.2",
+    "jsdom": ">=3.1.2 < 4.0.0",
+    "optparse": "1.0.5",
+    "soupselect": "latest",
+    "twit": "1.1.6",
+    "underscore": "1.4.4"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": ">= 0.8.x",
+    "npm": ">= 1.4.x"
   }
 }
