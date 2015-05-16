@@ -22,6 +22,8 @@ module.exports = (robot) ->
       msg.send "I like butts, but I'm not butthurt"
     else if name is robot.name
       msg.send "I'm definitely not thinking about butts"
+    else if name is "bell"
+      msg.send "bell is the worst ever (and is totally butthurt)"
     else
       users = robot.brain.usersForFuzzyName(name)
       if users.length is 1
@@ -40,6 +42,8 @@ module.exports = (robot) ->
       msg.send "No comment..."
     else if name is robot.name
       msg.send "I'm definitely not thinking about butts"
+    else if name is "bell"
+      msg.send "bell is the worst ever (and is totally butthurt)"
     else
       users = robot.brain.usersForFuzzyName(name)
       if users.length is 1
