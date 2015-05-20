@@ -26,7 +26,8 @@ module.exports = (robot) ->
     if name is "you"
       msg.send "Who ain't I?"
     else if name is robot.name
-      msg.send "The best."
+      msg.send "Who me?"
+      msg.send "http://media3.giphy.com/media/dyG6hBlZrGY2k/giphy.gif"
     else
       users = robot.brain.usersForFuzzyName(name)
       if users.length is 1
